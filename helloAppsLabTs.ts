@@ -90,6 +90,7 @@ function checkPalindrome(word:string)
 }
 
 
+
 console.log(checkEnding("feminine", "nine"))
 function checkEnding(firstWord:string, secondWord:string)
 {
