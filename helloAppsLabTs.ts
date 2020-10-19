@@ -78,4 +78,27 @@ function equalSlices(totalSlices:number, noRecipes:number, sliceEach:number)
     
 }
 
+console.log(checkPalindrome("pop"))
+function checkPalindrome(word:string)
+{
+    if(word.split('').reverse().join('') == word)
+    {
+        return true;
+    }
+    return false;
+    
+}
 
+
+console.log(checkEnding("feminine", "nine"))
+function checkEnding(firstWord:string, secondWord:string)
+{
+    if(firstWord.endsWith(secondWord))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
